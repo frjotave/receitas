@@ -8,9 +8,12 @@ body {
     width: 100%;
     min-height: 100vh;
 }
-
 header {
-    background-color: #f4f4f4;
+    background-color: #140C29;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #ccc;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -120,16 +123,16 @@ main {
 }
 
 .card {
-    width: 300px; /* Ajuste a largura dos cards conforme necessário */
+    width: 400px; /* Ajuste a largura dos cards conforme necessário */
     background-color: #140C29;
     color: #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 15px;
-    display: flex;
+    display: flexbox;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 .card img {
@@ -161,17 +164,22 @@ h3 {
 }
 
 .saiba-mais {
+    font-family: "Inter", sans-serif;
+    background-color: #6027FF;
     padding: 10px 15px;
-    background-color: #5cb85c;
     color: white;
-    border: none;
+    border: 2px hidden;
+    border-color: #6027FF;
     border-radius: 4px;
     cursor: pointer;
     font-weight: 700;
+    width: 400px;
 }
 
 .saiba-mais:hover {
-    background-color: #4cae4c;
+    background-color: #140C29;
+    color: #6027FF;
+    border-color: #6027FF;
 }
 
 /* Responsividade */
